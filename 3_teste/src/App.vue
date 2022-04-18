@@ -3,13 +3,7 @@
    
 <ul>
   <li><a href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li style="float:right">  <img width="100px" alt="Vue logo" src="./assets/1.png"></li>
-
-</ul>
-  </nav>
-    <div class="dropdown">
+      <div class="dropdown">
   <button class="dropbtn">menu com sub menu</button>
   <div class="dropdown-content">
   <a href="#">Link 1</a>
@@ -17,6 +11,13 @@
   <a href="#">Link 3</a>
   </div>
 </div> 
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li style="float:right">  <img width="100px" alt="Vue logo" src="./assets/1.png"></li>
+
+</ul>
+  </nav>
+
 <componente-1/>
 </template>
 
@@ -37,9 +38,14 @@ export default {
 body{
   background-color: rgb(147, 143, 144);
 }
+img{
+  
+}
 
 
 ul {
+  text-align: center;
+  
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -49,6 +55,9 @@ ul {
 
 li {
   float: left;
+  margin-left: 12%;
+  margin-right: 4%;
+  margin-top: 2%;
 }
 
 li a {
@@ -69,6 +78,8 @@ li a:hover:not(.active) {
   font-size: 16px;
   border: none;
   cursor: pointer;
+  margin-top: 12%;
+  
 }
 
 .dropdown {
