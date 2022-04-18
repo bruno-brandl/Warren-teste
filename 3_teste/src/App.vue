@@ -33,7 +33,7 @@
         </div>
     </section>
 
-<componente-1/>
+
 </template>
 
 <script>
