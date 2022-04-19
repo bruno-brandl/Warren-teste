@@ -7,12 +7,23 @@
                 <ul>
                     <a class="menu" href="#">Menu1</a> 
                     <a class="menu" href="#">Menu2</a>
-                    <a class="menu" href="#">Menu3</a>
+                    <div class="dropdown">
+                    <a class="dropbtn">Menu3</a>
+                    <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                     </div>
+                    </div>
                     <a class="menu" href="#">Menu4</a>
                     <a class="menu" href="#">Menu5</a>
                     <a class='botao' href="#">BUTTON</a>
+                    
+
                 </ul>
             </div>
+  
+
         </div>
     </header>
 </template>
@@ -24,6 +35,44 @@ export default {
 }
 </script>
 <style>
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 19px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3c3c3c;
+}
    *{
     box-sizing: border-box;
     margin: 0;
@@ -63,7 +112,6 @@ export default {
     line-height: 32px;
     margin: 30px;
     text-decoration: none;
-    background-color: #555555;
     border-radius: 5px;
  
 

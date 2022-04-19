@@ -67,16 +67,14 @@ personalizadas para cada um deles</p>
 
 }
 .secundaria{
-    
-    
-    display: inline-flex;
+ display: inline-flex;
     
 }
 .principal{
     
     padding: 10px;
     margin: 6%;
-        border-bottom: 13px solid rgb(0, 0, 0);   
+    border-bottom: 13px solid rgb(0, 0, 0);   
 }
 .imagem1{
     margin-top: 2%;
@@ -99,16 +97,18 @@ personalizadas para cada um deles</p>
     font-size: 23px;
 }
 .botao3{
-    margin-left: 65%;
-    margin-top: 2%;
-    text-decoration: none;
-    color: #000000;
-    padding: 13px;
-    border-radius: 24px;
-    background-color: #e23838;
-    border: none;
-
-
+  text-align: center;
+  padding-left: 2px;
+  margin-left: 55%;
+  height: 56px;
+  font-size: 40px;
+  color: #ffffff;
+  border-radius: 24px;
+  border-style: none;
+  background-color: rgb(224, 71, 71);
+  text-align: center;
+  cursor: pointer;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .botao3:hover {  
  background-color: #f5e6e6;
