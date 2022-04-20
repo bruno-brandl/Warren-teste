@@ -96,7 +96,7 @@ export default {
 
     
     
-}
+} 
 
 .nav-container{
     font-family: 'Source Sans Pro', sans-serif;
@@ -113,6 +113,7 @@ export default {
     margin: 30px;
     text-decoration: none;
     border-radius: 5px;
+    
  
 
 

@@ -40,6 +40,7 @@ personalizadas para cada um deles</p>
      </div>
 
      </div>
+     
 
         <div class="principal2">
         <h1 class="titulo2">Carteiras organizadas</h1>
@@ -62,7 +63,7 @@ personalizadas para cada um deles</p>
      <br>
      </div>
            
-       <segundo-componente/>
+        <componente2/>
    
 </template>
    
@@ -70,15 +71,18 @@ personalizadas para cada um deles</p>
 
 <script>
       import componente1 from './components/componente1.vue'
-      import SegundoComponente from './components/componente2.vue'
+      import componente2 from './components/componente2.vue'
         export default {
           name:'App',
           components:{
-          componente1,
-          SegundoComponente
+
+         componente1,
+         componente2
           }
-      
         }
+
+
+
 </script>
 
 <style>
@@ -93,7 +97,7 @@ personalizadas para cada um deles</p>
     
 }
 .principal2{
-    border-bottom: 8px solid rgb(91, 90, 90);
+    border-bottom: 8px solid rgb(188, 177, 177);
     padding: 10px;
     margin: 6%;
       
@@ -143,6 +147,8 @@ personalizadas para cada um deles</p>
     margin-left: 50%;
     font-size: 39px;
     margin-top: 0% ;
+   
+
 
 }
 .secundaria{
@@ -154,7 +160,7 @@ personalizadas para cada um deles</p>
     padding: 10px;
     margin: 6%;
    
-   border-bottom: 1px solid rgb(0, 0, 0);
+   border-bottom: 1px solid rgb(233, 107, 107);
 }
 .imagem1{
     margin-top: 2%;
@@ -168,6 +174,7 @@ personalizadas para cada um deles</p>
     font-family: 'Times New Roman', Times, serif;
     font-size: 26px;
     margin-top: 0%;
+     border-bottom: 2px solid rgb(214, 39, 39);
   
 }
 .texto2{
@@ -175,6 +182,7 @@ personalizadas para cada um deles</p>
     margin-left:37% ;
     font-family: 'Times New Roman', Times, serif;
     font-size: 23px;
+    
 }
 .botao3{
   text-align: center;
@@ -216,6 +224,7 @@ personalizadas para cada um deles</p>
     font-size: 48px;
     height: 56px;
     color: #EBECF3;
+    
 
 }
 .botao2{
