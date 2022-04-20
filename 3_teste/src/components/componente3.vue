@@ -27,17 +27,17 @@ export default {
   float: left;
   width: 33.33%;
   padding: 15px;
-    background-color: #b9b5b5;
-}
+  background-color: #847f7f;
+   color: white; 
 
-/* Clear floats after the columns */
+    }
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width:600px) {
   .column {
     width: 100%;
