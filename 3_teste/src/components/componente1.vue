@@ -54,24 +54,24 @@ export default {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  
 }
 
 .dropdown-content a {
   color: black;
-
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+  }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #3c3c3c;
+   border-bottom: 2px solid rgb(0, 0, 0);
 }
    *{
     box-sizing: border-box;
@@ -120,7 +120,7 @@ export default {
     
 }
  .menu:hover{
-   background-color: #2c2d2e;
+
    border-radius: 5px;
    color: rgb(255, 255, 255);
    text-decoration: underline;
