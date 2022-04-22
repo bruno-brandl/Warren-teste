@@ -13,10 +13,11 @@
 
 
 
-<script> export default {
-        name: 'SegundoComponente' 
-        } 
-        </script>
+<script>
+export default {
+  name: "SegundoComponente",
+};
+</script>
 
 <style>
 .container {
@@ -27,20 +28,20 @@
   align-items: center;
   justify-content: space-around;
   color: white;
-  background-color: #989191;
+background-color: #6c6a6b;
 }
 
 h1 {
   font-size: 50px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.invista{
+.invista {
   text-align: center;
   padding-left: 2px;
   margin-left: 30%;
   height: 56px;
-   padding: 15px 32px;
+  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -48,14 +49,13 @@ h1 {
   color: #060606;
   border-radius: 24px;
   border-style: none;
-  background-color: rgb(255, 0, 132);
+  background-color: rgb(240, 176, 209);
   text-align: center;
   cursor: pointer;
-  font-family: 'Times New Roman', Times, serif;
-  
-  }
-.invista:hover {  
- background-color: #f5e6e6;
+  font-family: "Times New Roman", Times, serif;
+}
+.invista:hover {
+  background-color: #f5e6e6;
   color: rgb(0, 0, 0);
 }
 </style>

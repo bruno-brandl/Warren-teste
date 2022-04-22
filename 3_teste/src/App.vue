@@ -1,106 +1,96 @@
 <template>
-
-<div>
- <componente1/>
-  <section>
-        <div class="container-banner">
-            <div class="text-h-1">
-                <h1>Por que investir em
-Carteiras na Warren?</h1>
-                <div class="text-h-4">
-                  <h4>Descubra seu perfil, crie objetivos
-e comece a investir</h4>
-                  <br>
-
-                </div>
-                <button class="botao2">Crie sua Conta Aqui</button>
-            </div>
+  <div>
+    <componente1 />
+    <section>
+      <div class="container-banner">
+        <div class="text-h-1">
+          <h1>Por que investir em Carteiras na Warren?</h1>
+          <div class="text-h-4">
+            <h4>Descubra seu perfil, crie objetivos e comece a investir</h4>
+            <br />
+          </div>
+          <button class="botao2">Criar Conta</button>
         </div>
+      </div>
     </section>
-    <br>
-    <br>
+    <br />
+    <br />
 
-              <div id="divMain">
-    <div id="mainContents1">
-      <div id="mainPhoto1">
-       <img src="./assets/wa.jpg " id="mainPhoto2" width="120px" alt="">  
+    <div id="divMain">
+      <div id="mainContents1">
+        <div id="mainPhoto1">
+          <img src="./assets/wa.jpg " id="mainPhoto2" width="120px" alt="" />
+        </div>
+        <div id="mainText1">
+          <h2 id="mainTitle1">Loren Ipsum</h2>
+          <p class="mainText1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+            veritatis aut consequuntur iste dolore pariatur, quia, perferendis
+            doloremque illo quaerat voluptas. Sunt perspiciatis facilis error
+            dolor veritatis unde nulla magni.
+          </p>
+          <div id="mainButton1">
+            <input type="button" value="Button" class="mainButton1" />
+          </div>
+        </div>
       </div>
-      <div id="mainText1">
-        <h2 id="mainTitle1">Loren Ipsum</h2>
-        <p class="mainText1">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-          veritatis aut consequuntur iste dolore pariatur, quia, perferendis
-          doloremque illo quaerat voluptas. Sunt perspiciatis facilis error
-          dolor veritatis unde nulla magni.
-        </p>
-        <div id="mainButton1">
-          <input type="button" value="Button" class="mainButton1" />
+      <br />
+      <br />
+      <br />
+      <div id="mainContents2">
+        <div id="mainPhoto2">
+          <img src="./assets/wa.jpg " id="mainPhoto2" width="120px" alt="" />
+        </div>
+        <div id="mainText2">
+          <h2 id="mainTitle2">Loren Ipsum</h2>
+          <p class="mainText2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+            veritatis aut consequuntur iste dolore pariatur, quia, perferendis
+            doloremque illo quaerat voluptas. Sunt perspiciatis facilis error
+            dolor veritatis unde nulla magni.
+          </p>
+          <div id="mainButton2">
+            <input type="button" value="Button" class="mainButton2" />
+          </div>
         </div>
       </div>
     </div>
-     <br>
-     <br>
-     <br>
-    <div id="mainContents2">
-      <div id="mainPhoto2">
-       <img src="./assets/wa.jpg " id="mainPhoto2" width="120px" alt="">
-      </div>
-      <div id="mainText2">
-        <h2 id="mainTitle2">Loren Ipsum</h2>
-        <p class="mainText2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-          veritatis aut consequuntur iste dolore pariatur, quia, perferendis
-          doloremque illo quaerat voluptas. Sunt perspiciatis facilis error
-          dolor veritatis unde nulla magni.
-        </p>
-        <div id="mainButton2">
-          <input type="button" value="Button" class="mainButton2" />
-        </div>
-      </div>
-    </div>
+    <br />
+    <br />
   </div>
-     <br>
-     <br>
-     </div>
-           
-        <componente2/>
-        <componente3/>
-   
+
+  <componente2 />
+  <componente3 />
 </template>
    
 
 
 <script>
-
-      import componente1 from './components/componente1.vue'
-      import componente2 from './components/componente2.vue'
-      import componente3 from  './components/componente3.vue'
-        export default {
-          name:'App',
-          components:{
-
-         componente1,
-         componente2,
-         componente3
-          }
-        }
-
-
+import componente1 from "./components/componente1.vue";
+import componente2 from "./components/componente2.vue";
+import componente3 from "./components/componente3.vue";
+export default {
+  name: "App",
+  components: {
+    componente1,
+    componente2,
+    componente3,
+  },
+};
 </script>
 
 <style>
-    svg{
+svg {
   cursor: pointer;
 }
- svg:hover{
-    -ms-transform: scale(1.2); 
-  -webkit-transform: scale(1.2); 
-  transform: scale(1.1); 
-
- }
-*{
-    box-sizing: border-box;
-    margin:0;
+svg:hover {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.1);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
 
 #divMain {
@@ -123,19 +113,16 @@ e comece a investir</h4>
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  
 }
 #mainTitle1 {
   font-size: 40px;
-  border-bottom: 3px magenta;
   color: black;
-  
 }
 .mainText1 {
   width: 75%;
   font-size: 20px;
   color: black;
-  border-bottom: solid 3px rgb(255, 0, 89)
+  border-bottom: solid 3px rgb(255, 0, 89);
 }
 .mainButton1 {
   font-size: 20px;
@@ -168,7 +155,6 @@ e comece a investir</h4>
   justify-content: space-evenly;
   align-items: flex-end;
   text-align: end;
-  
 }
 #mainTitle2 {
   font-size: 40px;
@@ -192,32 +178,24 @@ e comece a investir</h4>
   background-color: rgba(255, 20, 106, 0.616);
 }
 
-
-
-.container-banner{
-    width: 100%;
-    height: 580px;
-    background-color: #555555;
-    font-family: 'Source Sans Pro', sans-serif;
-    padding: 100px 15%;
-    flex-direction: column;
-    display: flex;
-    
-    
-  
-    
+.container-banner {
+  width: 100%;
+  height: 580px;
+  background-color: #555555;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 100px 15%;
+  flex-direction: column;
+  display: flex;
 }
 
-.text-h-1{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 48px;
-    height: 56px;
-    color: #EBECF3;
-    
-
+.text-h-1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  height: 56px;
+  color: #ebecf3;
 }
-.botao2{
+.botao2 {
   text-align: center;
   padding-left: 2px;
   height: 66px;
@@ -228,15 +206,12 @@ e comece a investir</h4>
   background-color: rgb(161, 157, 157);
   text-align: center;
   cursor: pointer;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.botao2:hover {  
- background-color: #ecd6d6;
+.botao2:hover {
+  background-color: #ecd6d6;
   color: rgb(0, 0, 0);
-     border-bottom: 2px solid rgb(233, 107, 107);
+  border-bottom: 2px solid rgb(233, 107, 107);
 }
-
-
 </style>
