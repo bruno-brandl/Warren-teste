@@ -28,8 +28,6 @@
   justify-content: space-around;
   color: white;
   background-color: #989191;
-  border-bottom: 5px solid rgb(255, 255, 255);
-
 }
 
 h1 {
@@ -50,7 +48,7 @@ h1 {
   color: #060606;
   border-radius: 24px;
   border-style: none;
-  background-color: rgb(248, 87, 87);
+  background-color: rgb(255, 0, 132);
   text-align: center;
   cursor: pointer;
   font-family: 'Times New Roman', Times, serif;

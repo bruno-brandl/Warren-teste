@@ -36,7 +36,7 @@ export default {
 </script>
 <style>
 .dropbtn {
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 16px;
   font-size: 19px;
   border: none;
@@ -89,7 +89,7 @@ export default {
 
  }
 .navbar{
-    background-color: #c4c4c4;
+    background-color: #f03079;
     padding-top: 1rem;
     padding-bottom: 1rem;
 
@@ -107,7 +107,7 @@ export default {
 }
 
 .menu{
-    color: #fbfbfb;
+    color: #000000;
     font-size: 19px;
     line-height: 32px;
     margin: 30px;
@@ -135,7 +135,7 @@ export default {
     color: #000000;
     padding: 13px;
     border-radius: 24px;
-    background-color: #6e6a6a;
+    background-color: #e84e93;
 
 
 }

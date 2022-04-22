@@ -107,7 +107,7 @@ e comece a investir</h4>
   height: 100vh;
 }
 #mainContents1 {
-  height: 50vh;
+  height: 70vh;
   display: flex;
   align-items: center;
 }
@@ -123,17 +123,19 @@ e comece a investir</h4>
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  
 }
 #mainTitle1 {
   font-size: 40px;
   border-bottom: 3px magenta;
   color: black;
+  
 }
 .mainText1 {
   width: 75%;
   font-size: 20px;
   color: black;
-  border-bottom: 3px magenta
+  border-bottom: solid 3px rgb(255, 0, 89)
 }
 .mainButton1 {
   font-size: 20px;
@@ -176,6 +178,7 @@ e comece a investir</h4>
   width: 75%;
   font-size: 20px;
   color: black;
+  border-bottom: solid 3px rgb(255, 0, 119);
 }
 .mainButton2 {
   font-size: 20px;
@@ -193,7 +196,7 @@ e comece a investir</h4>
 
 .container-banner{
     width: 100%;
-    height: 530px;
+    height: 580px;
     background-color: #555555;
     font-family: 'Source Sans Pro', sans-serif;
     padding: 100px 15%;

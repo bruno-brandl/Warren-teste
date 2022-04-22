@@ -27,7 +27,7 @@ export default {
   float: left;
   width: 33.33%;
   padding: 15px;
-  background-color: #847f7f;
+  background-color: #4c4949;
    color: white; 
 
     }
@@ -36,7 +36,9 @@ export default {
   display: table;
   clear: both;
 }
-
+  h2{
+    margin-left: 9%;
+  }
 
 @media screen and (max-width:600px) {
   .column {
