@@ -38,6 +38,9 @@ e comece a investir</h4>
         </div>
       </div>
     </div>
+     <br>
+     <br>
+     <br>
     <div id="mainContents2">
       <div id="mainPhoto2">
        <img src="./assets/wa.jpg " id="mainPhoto2" width="120px" alt="">
@@ -123,12 +126,14 @@ e comece a investir</h4>
 }
 #mainTitle1 {
   font-size: 40px;
+  border-bottom: 3px magenta;
   color: black;
 }
 .mainText1 {
   width: 75%;
   font-size: 20px;
   color: black;
+  border-bottom: 3px magenta
 }
 .mainButton1 {
   font-size: 20px;
@@ -161,6 +166,7 @@ e comece a investir</h4>
   justify-content: space-evenly;
   align-items: flex-end;
   text-align: end;
+  
 }
 #mainTitle2 {
   font-size: 40px;
@@ -187,7 +193,7 @@ e comece a investir</h4>
 
 .container-banner{
     width: 100%;
-    height: 600px;
+    height: 530px;
     background-color: #555555;
     font-family: 'Source Sans Pro', sans-serif;
     padding: 100px 15%;
