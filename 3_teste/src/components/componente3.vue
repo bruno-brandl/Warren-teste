@@ -37,7 +37,6 @@ export default {
 footer {
   background-color: rgb(94, 88, 91);
   height: 20%;
-
   display: flex;
   justify-content: center;
   align-items: flex-end;
