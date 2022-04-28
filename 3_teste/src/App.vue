@@ -197,7 +197,6 @@ svg:hover {
 }
 .botao2 {
   text-align: center;
-  padding-left: 2px;
   height: 66px;
   font-size: 40px;
   color: #ffffff;
