@@ -1,9 +1,10 @@
 import { createApp } from 'vue'
-import App2 from './App.vue'
+import App from './App.vue'
 import VueRouter from 'vue-router'
 import componente1 from './components/componente1.vue';
 
-Vue.use(VuuRouter);
+
+Vue.use(VueRouter);
 
 const router = new VueRouter({
     routes: [
@@ -14,10 +15,12 @@ const router = new VueRouter({
     ]
 })
 
-Vue.config.Vue.config.productionTip = false
+Vue.config.productionTip = true
 
 new Vue({
     router,
     render: h =>(App),
 
+
+    
 }).$mount('#App')

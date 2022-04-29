@@ -18,7 +18,7 @@ import HelloWorld from "./components/HelloWorld.vue";
 import cadastroScreen from "./components/CadastroScreen.vue";
 
 export default {
-    name:'App',
+    name:'Login',
   components: {
     HelloWorld,
     cadastroScreen,
