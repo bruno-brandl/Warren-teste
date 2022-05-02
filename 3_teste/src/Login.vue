@@ -19,7 +19,7 @@ import cadastroScreen from "./components/CadastroScreen.vue";
 
 export default {
     name:'Login',
-  components: {
+    components: {
     HelloWorld,
     cadastroScreen,
   

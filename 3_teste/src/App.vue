@@ -6,7 +6,7 @@
         <div class="text-h-1">
           <h1>Por que investir em Carteiras na Warren?</h1>
           <div class="text-h-4">
-            <h4>Descubra seu perfil, crie objetivos e comece a investir</h4>
+            <h2>Descubra seu perfil, crie objetivos e comece a investir</h2>
             <br />
           </div>
           <button class="botao2">Criar Conta</button>

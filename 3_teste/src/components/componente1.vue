@@ -11,7 +11,7 @@
           ></path>
         </svg>
         <ul>
-          <a class="menu" href="Login.vue">Menu1</a>
+          <a class="menu" href="/Login.vue">Menu1</a>
           <a class="menu" href="#">Menu2</a>
           <div class="dropdown">
             <a class="dropbtn">Menu3</a>
